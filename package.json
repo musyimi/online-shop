@@ -1,0 +1,23 @@
+{
+  "name": "Kwisha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build-css": "tailwindcss build css/tailwind.css -o public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/jit": "^0.1.18",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.9",
+    "tailwindcss": "^2.0.4",
+    "vite": "^2.1.4"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.3.2"
+  }
+}
